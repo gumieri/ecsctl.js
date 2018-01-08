@@ -1,0 +1,38 @@
+{
+  "name": "ecsedit",
+  "version": "0.0.1",
+  "description": "Command-line tool to edit AWS ECS configurations",
+  "bin": {
+    "ecsedit": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rafael Gumieri",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.177.0",
+    "commander": "^2.12.2",
+    "open-in-editor": "^2.2.0",
+    "tmp": "0.0.33"
+  },
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gumieri/ecsedit.git"
+  },
+  "keywords": [
+    "aws",
+    "ecs",
+    "cli",
+    "vim",
+    "edit"
+  ],
+  "bugs": {
+    "url": "https://github.com/gumieri/ecsedit/issues"
+  },
+  "homepage": "https://github.com/gumieri/ecsedit#readme"
+}

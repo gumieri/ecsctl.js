@@ -6,7 +6,8 @@
     "ecsedit": "index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pkg --out-path ./bin ."
   },
   "author": "Rafael Gumieri",
   "license": "MIT",
@@ -34,5 +35,8 @@
   "bugs": {
     "url": "https://github.com/gumieri/ecsedit/issues"
   },
-  "homepage": "https://github.com/gumieri/ecsedit#readme"
+  "homepage": "https://github.com/gumieri/ecsedit#readme",
+  "devDependencies": {
+    "pkg": "^4.3.0-beta.5"
+  }
 }

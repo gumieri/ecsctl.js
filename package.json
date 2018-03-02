@@ -1,6 +1,6 @@
 {
   "name": "ecsedit",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Command-line tool to edit AWS ECS configurations",
   "bin": {
     "ecsedit": "index.js"
@@ -37,6 +37,8 @@
   },
   "homepage": "https://github.com/gumieri/ecsedit#readme",
   "devDependencies": {
-    "pkg": "^4.3.0-beta.5"
+    "pkg": "^4.3.0-beta.5",
+    "prettier-standard": "^8.0.0",
+    "standard": "^11.0.0"
   }
 }

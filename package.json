@@ -1,13 +1,12 @@
 {
-  "name": "ecsedit",
-  "version": "0.1.0",
-  "description": "Command-line tool to edit AWS ECS configurations",
+  "name": "ecsctl",
+  "version": "0.0.1",
+  "description": "Command-line tool to manage AWS ECS",
   "bin": {
-    "ecsedit": "index.js"
+    "ecsctl": "index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "pkg --out-path ./bin ."
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Rafael Gumieri",
   "license": "MIT",
@@ -23,21 +22,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gumieri/ecsedit.git"
+    "url": "git+https://github.com/gumieri/ecsctl.git"
   },
   "keywords": [
     "aws",
     "ecs",
-    "cli",
-    "vim",
-    "edit"
+    "cli"
   ],
   "bugs": {
-    "url": "https://github.com/gumieri/ecsedit/issues"
+    "url": "https://github.com/gumieri/ecsctl/issues"
   },
-  "homepage": "https://github.com/gumieri/ecsedit#readme",
+  "homepage": "https://github.com/gumieri/ecsctl#readme",
   "devDependencies": {
-    "pkg": "^4.3.1",
     "prettier-standard": "^8.0.0",
     "standard": "^11.0.0"
   }

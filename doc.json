@@ -1,0 +1,20 @@
+{
+  "description": "Command line tool for managing AWS ECS.",
+  "commands": {
+    "services": {
+      "description": "Manage services from a specific ECS Cluster.",
+      "commands": {
+        "deploy": {
+          "description": "Update an existing service",
+          "parameters": {
+            "service": { "description": "Service name" }
+          },
+          "flags": {
+            "cluster": { "description": "Cluster name" },
+            "image": { "description": "Image name" }
+          }
+        }
+      }
+    }
+  }
+}

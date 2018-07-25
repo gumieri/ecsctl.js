@@ -1,9 +1,9 @@
 {
   "name": "ecsctl",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Command-line tool to manage AWS ECS",
   "bin": {
-    "ecsctl": "index.js"
+    "ecsctl": "./ecsctl"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,10 +11,8 @@
   "author": "Rafael Gumieri",
   "license": "MIT",
   "dependencies": {
-    "aws-sdk": "^2.240.1",
-    "commander": "^2.15.1",
-    "open-in-editor": "^2.2.0",
-    "tmp": "0.0.33"
+    "ecs-extra": "^0.0.2",
+    "lib2cli": "0.0.4"
   },
   "main": "index.js",
   "directories": {
@@ -33,8 +31,5 @@
     "url": "https://github.com/gumieri/ecsctl/issues"
   },
   "homepage": "https://github.com/gumieri/ecsctl#readme",
-  "devDependencies": {
-    "prettier-standard": "^8.0.0",
-    "standard": "^11.0.0"
-  }
+  "devDependencies": {}
 }

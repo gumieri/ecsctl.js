@@ -1,0 +1,7 @@
+#!/usr/bin/env node
+
+const lib2cli = require('lib2cli')
+const ecsExtra = require('ecs-extra')
+const doc = require('./doc')
+
+lib2cli.run({ lib: ecsExtra, doc })
